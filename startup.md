@@ -2,7 +2,7 @@
 
 ## Build Image
 
-docker build -t weather-api .
+docker build --no-cache -t weather-api .
 
 ## Run
 

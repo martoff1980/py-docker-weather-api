@@ -14,4 +14,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY app/ ./
 
 # Запуск приложения
-CMD ["python", "app/main.py"]
+CMD ["python", "main.py"]
